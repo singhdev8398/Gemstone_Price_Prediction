@@ -19,8 +19,8 @@ def get_requiremet(file_path:str)->List[str]:
 setup(
     name="src",
     version="0.0.1",
-    author="sunny",
-    author_email="sunny@gmail.com",
+    author="Devendra",
+    author_email="singhdevendra8398@gmail.com",
     install_requires=get_requiremet("requirements.txt"),
     packages=find_packages()
 )
